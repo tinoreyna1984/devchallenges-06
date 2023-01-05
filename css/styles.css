@@ -32,7 +32,7 @@ body {
 }
 @media (min-width: 768px) {
   body {
-    padding: 0 calc(60px + 1.08vw);
+    padding: 0 calc(48px + 1.08vw);
   }
 }
 @media (min-width: 1124px) {
@@ -87,6 +87,7 @@ h1 {
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: flex-start;
+    column-gap: 2rem;
   }
 }
 
